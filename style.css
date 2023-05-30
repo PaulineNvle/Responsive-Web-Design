@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2%;
+    text-align: justify;
+}
+
+
+@media (max-width: 410px) {
+    body {
+        color: red;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 410px) and (max-width: 768px) {
+    body {
+        color: green; 
+    }
+        #small {
+            width: 25%;
+        }
+        #medium {
+            width: 65%;
+        }
+        #large {
+            width: 100%;
+
+        }
+   
+}
+
+@media (min-width: 768px){
+    body {
+        color: blue;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
